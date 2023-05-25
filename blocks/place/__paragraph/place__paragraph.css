@@ -10,18 +10,16 @@
     margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .place__paragraph {
-        font-size: 16px;
-        line-height: 26px;
-    }
-}
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .place__paragraph {
-        font-size: 16px;
-        line-height: 26px;
         margin-bottom: 25px;
         padding: 0 16px;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+} /*исправлены медиазапросы*/

@@ -5,21 +5,9 @@
     column-gap: 40px;
 }
 
-.place:nth-child(2) {
-    margin-top: 80px;
-}
-
-.place:nth-child(3) {
-    margin-top: 80px;
-}
-
-.place:nth-child(4) {
-    margin-top: 80px;
-}
-
-.place:last-child {
-    margin-top: 80px;
-}
+.place:not(:first-of-type) {
+    padding-top: 80px;
+} /*заданы отступы между блоками, кроме первого благодаря псевдоклассу*/
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place {
@@ -32,20 +20,8 @@
         column-gap: 28px;
     }
 
-    .place:nth-child(2) {
-        margin-top: 73px;
-    }
-    
-    .place:nth-child(3) {
-        margin-top: 73px;
-    }
-    
-    .place:nth-child(4) {
-        margin-top: 73px;
-    }
-    
-    .place:last-child {
-        margin-top: 73px;
+    .place:not(:first-of-type) {
+        padding-top: 73px;
     }
 }
 
@@ -55,19 +31,7 @@
         gap: 32px;
     }
 
-    .place:nth-child(2) {
-        margin-top: 50px;
-    }
-    
-    .place:nth-child(3) {
-        margin-top: 50px;
-    }
-    
-    .place:nth-child(4) {
-        margin-top: 50px;
-    }
-    
-    .place:last-child {
-        margin-top: 50px;
+    .place:not(:first-of-type) {
+        padding-top: 50px;
     }
 }
