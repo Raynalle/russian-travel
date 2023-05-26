@@ -13,7 +13,7 @@
 }
 
 .footer__link:hover {
-    opacity: .6;
+    opacity: .8; /*поправлено значение по макету ссылка на ЯД https://disk.yandex.ru/i/F_xp4k5xDCiRWA*/
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
